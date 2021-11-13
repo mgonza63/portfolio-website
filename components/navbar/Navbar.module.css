@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+}
+.logo {
+    font-family: "Austin";
+    font-size: 1.75em;
+}
+.navbar {
+    margin-left: auto;
+    list-style: none;
+}
+.navItem {
+    margin-top: 0;
+}
+.navItem a {
+    font-family: "Austin";
+}
