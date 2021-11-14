@@ -1,0 +1,28 @@
+.mainImgContainer {
+    display: flex;
+    justify-content: center;
+}
+.mainHeading {
+    position: relative;
+    display: flex;
+    color: var(--primary-color);
+    font-size: 3em;
+    text-align: center;
+    font-family: "Austin";
+    z-index: 100;
+}
+.mainImg {
+    clip-path: inset(2% 10% 5% 12% round 35vw 35vw 0vw 0vw);
+    transition-delay: 1s;
+    transition: all 450ms cubic-bezier(0.8, 0.26, 0.03, 1);
+    transform: translateY(-3em);
+}
+.mainImg:hover {
+    clip-path: inset(15% 20% 15% 20% round 25vw 25vw 25.01vw 25.01vw);
+}
+@media screen and (min-width: 30em) {
+    .mainHeading {
+        font-size: 4em;
+        margin-top: 1em;
+    }
+}
