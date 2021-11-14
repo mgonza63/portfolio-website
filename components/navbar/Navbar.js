@@ -9,17 +9,17 @@ export default function Navbar() {
       </div>
       <li className={styles.navbar}>
         <ul className={styles.navItem}>
-          <Link href="#">
+          <Link href="/">
             <a> Who am I? </a>
           </Link>
         </ul>
         <ul className={styles.navItem}>
-          <Link href="#">
+          <Link href="/">
             <a> What do I do? </a>
           </Link>
         </ul>
         <ul className={styles.navItem}>
-          <Link href="#">
+          <Link href="/">
             <a> Talk to me</a>
           </Link>
         </ul>
