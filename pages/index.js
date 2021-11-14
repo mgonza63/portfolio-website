@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { motion } from "framer-motion";
 import utilStyles from "../styles/utils.module.css";
-import Navbar from "../components/Navbar/index";
+import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/Hero/Hero.js";
 
 export default function Home() {
