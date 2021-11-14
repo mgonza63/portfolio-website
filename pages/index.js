@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { motion } from "framer-motion";
 import utilStyles from "../styles/utils.module.css";
-import Navbar from "../components/Navbar/Navbar.js";
+import Navbar from "../../my-next-portfolio/components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero.js";
 
 export default function Home() {
