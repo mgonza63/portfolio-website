@@ -1,0 +1,9 @@
+.breadcrumb {
+    /* Content is centered vertically */
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+.breadcrumbSeparator {
+    margin: 0 8px;
+}

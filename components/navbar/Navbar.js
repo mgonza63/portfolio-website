@@ -9,7 +9,7 @@ export default function Navbar() {
       </div>
       <li className={styles.navbar}>
         <ul className={styles.navItem}>
-          <Link href="/">
+          <Link href="/" passHref>
             <a> Who am I? </a>
           </Link>
         </ul>

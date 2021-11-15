@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./ProjectCard.module.css";
 import ProjectData from "./ProjectData";
+import Link from "next/link";
 
 export default function ProjectCard(props) {
 
@@ -17,7 +18,15 @@ export default function ProjectCard(props) {
             );
           })}
         </ul>
-        <p>{props.shortCopy}</p>
+        <p className={styles.shortCopy}>{props.shortCopy}</p>
+        <div className={styles.linksContainer}>
+          <Link href={`${props.learn}`}>
+            <a className={styles.links}>Learn More</a>
+          </Link>
+          <Link href={`${props.site}`}>
+            <a className={styles.links} target="_blank">Link to Site</a>
+          </Link>
+        </div>
       </div>
       <div className={styles.projectImageContainer}>
         <img
