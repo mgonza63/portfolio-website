@@ -1,5 +1,5 @@
 import styles from "./Projects.module.css";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import { ProjectData } from "./ProjectData";
 import utilStyles from "../../styles/utils.module.css";
 
