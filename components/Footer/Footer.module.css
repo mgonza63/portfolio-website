@@ -1,0 +1,48 @@
+.header {
+    border-top: 0.5px solid #dde8e449;
+    margin-top: 8em;
+    padding: 2em 0 0 0;
+    display: flex;
+    
+}
+.logo {
+    font-family: "Austin";
+    font-size: 1.75em;
+}
+.navbar {
+    margin-left: auto;
+    list-style: none;
+}
+.navItem {
+    margin-top: 0;
+    margin-bottom: 0.75em;
+
+}
+.navItem a {
+    font-family: "Austin";
+}
+.socialsList {
+    display: flex;
+
+    padding: 0;
+
+}
+/* #ff3c3c */
+.socials {
+    font-size: 1.25em;
+    list-style: none;
+    color: #dde8e4;
+    font-family: "Austin";
+    border: #dde8e4 1px solid;
+    border-radius: 18px;
+    padding: 0.2em 0.55em;
+    margin: 0.75em 1em 0 0;
+    opacity: 0.9;
+    cursor: pointer;
+
+    transition: all 300ms ease-out;
+}
+.socials:hover {
+    border: #ff3c3c 1px solid;
+
+}

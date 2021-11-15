@@ -8,9 +8,11 @@
 .navbar {
     margin-left: auto;
     list-style: none;
+    margin-top: 0;
 }
 .navItem {
-    margin-top: 0;
+    padding: 0.25em 0 0 0;
+    margin-bottom: 0.75em;
 }
 .navItem a {
     font-family: "Austin";

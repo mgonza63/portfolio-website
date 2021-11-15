@@ -34,7 +34,14 @@
     background: none;
     border: #ff3c3c 2px solid;
     color: #dde8e4;
-    padding: 0.25em 0.75em;
+    padding: 0.25em 1em;
     border-radius: 40px;
     cursor: pointer;
+
+    transition: all 300ms ease-out;
+}
+.submitButton:hover {
+    border: #ff3c3c 2px solid;
+    background: #ff4c4c;
+
 }

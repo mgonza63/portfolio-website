@@ -20,7 +20,8 @@
 }
 .links {
   margin-right: 2em;
-  border-bottom: 1px #dde8e4 solid;
+  padding-bottom: .5em;
+  border-bottom: 1px #ff3c3c solid;
 }
 
 .projectImageContainer {

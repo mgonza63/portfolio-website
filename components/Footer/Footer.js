@@ -1,13 +1,27 @@
-import styles from "./Navbar.module.css";
+import styles from "./Footer.module.css";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
-export default function Navbar() {
+export default function Footer() {
   return (
-    <header className={`${styles.header}`}>
+    <footer className={`${styles.header}`}>
       <div>
-        <Link  href="/">
+        <Link href="/">
           <a className={styles.logo}>Mauricio Gonzalez</a>
         </Link>
+        <div>
+          <ul className={styles.socialsList}>
+            <Link href="https://www.linkedin.com/in/mauricio-gonzalez-b940b4195/">
+              <a target="_blank">
+                <li className={styles.socials}>LinkedIn</li>
+              </a>
+            </Link>
+            <Link href="">
+            <a target="_blank">
+              <li className={styles.socials}>Github</li>
+              </a>
+            </Link>
+          </ul>
+        </div>
       </div>
       <ul className={styles.navbar}>
         <li className={styles.navItem}>
@@ -26,6 +40,6 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
-    </header>
+    </footer>
   );
 }
