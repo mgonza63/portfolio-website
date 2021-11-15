@@ -2,26 +2,26 @@
 import styles from "./ProjectCard.module.css";
 import ProjectData from "./ProjectData";
 
-
-
 export default function ProjectCard(props) {
-  console.log(props.pills)
 
   return (
-    <div className={styles.ProjectCard}>
+    <div className={styles.projectCard}>
       <div className={styles.projectCopy}>
+        <h2 className={styles.projectHeading}>{props.title}</h2>
         <ul className={styles.pillList}>
           {props.pills.map((pill, index) => {
             return (
-              <li key={index} className={styles.pill}>{pill}</li>
-            )
+              <li key={index} className={styles.pill}>
+                {pill}
+              </li>
+            );
           })}
         </ul>
-        <h2 className={styles.projectHeading}>{props.title}</h2>
+        <p>{props.shortCopy}</p>
       </div>
       <div className={styles.projectImageContainer}>
         <img
-          src={props.image}
+          src={props.thumbnail}
           alt={`A screenshot featuring ${props.title} website made by me`}
         />
       </div>
