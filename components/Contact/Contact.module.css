@@ -1,0 +1,40 @@
+.form {
+    width: 100%;
+}
+.subheading {
+    font-size: 2.75em;
+}
+.formGroup {
+    margin-bottom: 3em;
+}
+
+.formGroup input{
+    color: #dde8e4;
+    background: none;
+    border: none;
+    border-bottom: 0.5px solid #dde8e4;
+    font-size: 2.5em;
+    font-family: "Austin";
+    width: 100%;
+
+}
+.formGroup textarea {
+    color: #dde8e4;
+    font-size: 2.5em;
+    background: none;
+    border: none;
+    border-bottom: 0.5px solid #dde8e4;
+    resize: none;
+    font-family: "Austin";
+    width: 100%;
+}
+.submitButton {
+    font-size: 2em;
+    font-family: "Austin";
+    background: none;
+    border: #ff3c3c 2px solid;
+    color: #dde8e4;
+    padding: 0.25em 0.75em;
+    border-radius: 40px;
+    cursor: pointer;
+}

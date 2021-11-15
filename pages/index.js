@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/Hero/Hero.js";
 import Projects from "../components/Projects/Projects";
-
+import Contact from "../components/Contact/Contact";
 export default function Home() {
   return (
     <div className={utilStyles.containerLg}>
@@ -19,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
+      <Contact />
     </div>
   );
 }

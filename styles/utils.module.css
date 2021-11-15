@@ -10,3 +10,6 @@
 .dFlex {
   display: flex;
 }
+.highlight {
+  color: #ff3c3c;
+}

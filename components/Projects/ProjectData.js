@@ -31,5 +31,15 @@ export const ProjectData = [
     learn: "https://github.com/mgonza63/noteTaker",
     site: "https://note-tkr.herokuapp.com/notes"
   },
-  
+  {
+    id: "weather",
+    title: "Weather Dashboard",
+    pills: ["JAVASCRIPT", "API"],
+    thumbnail: "/images/weather/weather1.png",
+    shortCopy:
+      "Simple Frontend project that allows you to check the current weather and a 5-day forecast of any city you want",
+    type: "Fullstack Projects",
+    learn: "https://github.com/mgonza63/weatherDashboard",
+    site: "https://mgonza63.github.io/weatherDashboard/"
+  },
 ];
