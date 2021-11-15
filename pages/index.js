@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import utilStyles from "../styles/utils.module.css";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/Hero/Hero.js";
+import Projects from "../components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Projects />
     </div>
   );
 }

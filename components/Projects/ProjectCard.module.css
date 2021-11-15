@@ -1,0 +1,15 @@
+.pillList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.pill {
+    color: #dde8e4;
+    font-size: .75em;
+    font-family: forma-djr-micro, sans-serif;
+    border: #dde8e4 1px solid;
+    border-radius: 18px;
+    padding: .15em .55em;
+    margin-right: .25em;
+    opacity: 0.9;
+  }
