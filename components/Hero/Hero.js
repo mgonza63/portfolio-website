@@ -25,14 +25,15 @@ export default function Hero() {
         transition={{ ease: "circOut", duration: 0.5, delay: 0.2 }}
       >
         <Link href="/about">
-        <a>
-        <img
-          className={styles.mainImg}
-          src="/images/mainImg.png"
-          alt="me standing with my hand running through my hair"
-        />
-        </a>
+          <a>
+            <img
+              className={styles.mainImg}
+              src="/images/mainImg.png"
+              alt="me standing with my hand running through my hair"
+            />
+          </a>
         </Link>
+
       </motion.div>
     </motion.main>
   );

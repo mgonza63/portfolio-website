@@ -4,20 +4,34 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
 import Link from "next/link";
+
+var animDelay;
+
 export default function Navbar() {
   const router = useRouter();
   // console.log(router.asPath);
+  router.asPath === "/"? animDelay = 0.6 : animDelay = 0.2;
   return (
     <motion.header
       className={`${styles.header}`}
       initial={{ opacity: 0, y: -50 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ ease: "circOut", duration: 0.5, delay: 0.6 }}
+      transition={{ ease: "circOut", duration: 0.5, delay: animDelay }}
     >
       <div>
-        <Link href="/">
-          <a className={styles.logo}>Mauricio Gonzalez</a>
-        </Link>
+        <div>
+          <Link href="/">
+            <a className={styles.logo}>Mauricio Gonzalez</a>
+          </Link>
+          <motion.small
+            className={styles.smallText}
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ ease: "circOut", duration: 0.5, delay: animDelay + 0.2 }}
+          >
+            web developer {`&`} designer
+          </motion.small>
+        </div>
       </div>
       <ul className={styles.navbar}>
         <li className={styles.navItem}>
@@ -25,7 +39,7 @@ export default function Navbar() {
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ ease: "circOut", duration: 0.5, delay: 0.8 }}
+              transition={{ ease: "circOut", duration: 0.5, delay: animDelay + 0.2}}
             >
               Who am I?
             </motion.a>
@@ -37,7 +51,7 @@ export default function Navbar() {
               <motion.a
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ ease: "circOut", duration: 0.5, delay: 0.95 }}
+                transition={{ ease: "circOut", duration: 0.5, delay: animDelay + 0.35 }}
               >
                 What do I do?
               </motion.a>
@@ -49,7 +63,7 @@ export default function Navbar() {
               <motion.a
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ ease: "circOut", duration: 0.5, delay: 0.95 }}
+                transition={{ ease: "circOut", duration: 0.5, delay: animDelay + 0.35 }}
               >
                 What do I do?
               </motion.a>
@@ -62,7 +76,7 @@ export default function Navbar() {
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ ease: "circOut", duration: 0.5, delay: 1.1 }}
+              transition={{ ease: "circOut", duration: 0.5, delay: animDelay + 0.50 }}
             >
               Talk to me
             </motion.a>

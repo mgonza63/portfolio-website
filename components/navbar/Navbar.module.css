@@ -2,8 +2,13 @@
     display: flex;
 }
 .logo {
+    display: block;
     font-family: "Austin";
     font-size: 1.75em;
+}
+.smallText {
+    font-family: "Austin";
+    opacity: 0.9;
 }
 .navbar {
     margin-left: auto;
