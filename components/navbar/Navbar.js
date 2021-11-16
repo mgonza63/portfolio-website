@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
+  // console.log(router.asPath);
   return (
     <motion.header
       className={`${styles.header}`}

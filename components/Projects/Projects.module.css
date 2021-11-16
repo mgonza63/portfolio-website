@@ -1,3 +1,6 @@
+.projectSection {
+  min-height: 100vh;
+}
 .breadcrumb {
     /* Content is centered vertically */
     align-items: center;
