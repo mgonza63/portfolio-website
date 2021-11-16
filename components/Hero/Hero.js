@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <motion.main className={`${utilStyles.containerLg}`}>
+    <motion.main className={`${utilStyles.containerLg} ${styles.heroSection}`}>
       <motion.span
         className={styles.mainHeading}
         initial={{ opacity: 0, y: 100 }}
