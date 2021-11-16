@@ -22,7 +22,6 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-
       <Projects/>
       <Contact />
       <Footer />

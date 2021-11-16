@@ -7,7 +7,8 @@ export default function Contact() {
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ ease: "circOut", duration: 0.5 }}
-    viewport={{ once: true }}>
+    viewport={{ once: true }}
+    id="contact">
       <h3 className={styles.subheading}>
         Contact me if you are interested in working with me or have any
         questions.

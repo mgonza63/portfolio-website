@@ -58,7 +58,7 @@ export default function Navbar() {
         )}
 
         <li className={styles.navItem}>
-          <Link href="/" passHref>
+          <Link href="#contact" passHref>
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}

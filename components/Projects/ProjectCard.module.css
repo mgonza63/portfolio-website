@@ -60,4 +60,7 @@
   .projectCard {
     display: flex;
   }
+  .projectCard {
+    margin-bottom: 0em;
+  }
 }
