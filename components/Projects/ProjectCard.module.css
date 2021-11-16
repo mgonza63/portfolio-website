@@ -1,4 +1,6 @@
-
+.projectCard {
+  margin-bottom: 2em;
+}
 .projectCopy {
   flex: 1;
   padding-right: 1em;

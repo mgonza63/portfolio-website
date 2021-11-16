@@ -1,5 +1,6 @@
 import styles from "./Projects.module.css";
-import ProjectCard from "./ProjectCard";
+import dynamic from 'next/dynamic'
+// import ProjectCard from "./ProjectCard";
 import { ProjectData } from "./ProjectData";
 import utilStyles from "../../styles/utils.module.css";
 import { motion } from "framer-motion";
@@ -15,6 +16,7 @@ export default function Projects() {
   const fullstack = ProjectData.filter(
     (fullstack) => fullstack.type === "Fullstack Projects"
   );
+  const ProjectCard = dynamic(() => import('./ProjectCard'))
 
   return (
     <motion.section
