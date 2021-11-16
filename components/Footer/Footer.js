@@ -22,7 +22,7 @@ export default function Footer() {
                 <li className={styles.socials}>LinkedIn</li>
               </a>
             </Link>
-            <Link href="">
+            <Link href="/">
               <a target="_blank">
                 <li className={styles.socials}>Github</li>
               </a>
@@ -32,7 +32,7 @@ export default function Footer() {
       </div>
       <ul className={styles.navbar}>
         <li className={styles.navItem}>
-          <Link href="/" passHref>
+          <Link href="/">
             <a> Who am I? </a>
           </Link>
         </li>

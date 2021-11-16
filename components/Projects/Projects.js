@@ -25,6 +25,7 @@ export default function Projects() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ ease: "circOut", duration: 0.5 }}
       viewport={{ once: true }}
+      id="projects"
     >
       <div className={styles.breadcrumb}>
         <p>Projects</p>

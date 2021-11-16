@@ -9,6 +9,7 @@ body {
   margin: 0;
   background-color: #222c2d;
   color: #dde8e4;
+  scroll-behavior: smooth;
 }
 :root {
   --primary-color: #dde8e4;

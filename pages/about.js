@@ -4,6 +4,7 @@ import Navbar from "../components/navbar/Navbar";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 export default function About() {
   return (
@@ -14,6 +15,10 @@ export default function About() {
       whileInView={{ opacity: 1 }}
       transition={{ ease: "circOut", duration: 0.5, delay: 0.2 }}
     >
+      <Head>
+        <title>Mauricio Gonzalez | About</title>
+
+      </Head>
       <Navbar />
       <p className={utilStyles.copy}>
         My name is Mauricio and I am based in Austin, TX, and I have been a

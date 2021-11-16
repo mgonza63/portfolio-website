@@ -6,11 +6,15 @@ import { ProjectData } from "../../components/Projects/ProjectData";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Head from "next/head";
 export default function Qtax() {
   const c4 = ProjectData[1];
 
   return (
     <div className={utilStyles.containerLg}>
+      <Head>
+        <title>Mauricio Gonzalez | C4 Project</title>
+      </Head>
       <Navbar />
       <motion.div
         className={`${utilStyles.containerMd} ${utilStyles.mb}`}
