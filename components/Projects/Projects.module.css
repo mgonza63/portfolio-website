@@ -3,6 +3,7 @@
     align-items: center;
     display: flex;
     margin-bottom: 0.5em;
+    opacity: 0.7;
   }
 .breadcrumbSeparator {
     margin: 0 8px;

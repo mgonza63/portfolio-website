@@ -9,7 +9,7 @@ export default function Navbar() {
       className={`${styles.header}`}
       initial={{ opacity: 0, y: -50 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ ease: "circOut", duration: 0.5, delay: 0.8 }}
+      transition={{ ease: "circOut", duration: 0.5, delay: 0.6 }}
     >
       <div>
         <Link href="/">
@@ -22,7 +22,7 @@ export default function Navbar() {
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ ease: "circOut", duration: 0.5, delay: 1 }}
+              transition={{ ease: "circOut", duration: 0.5, delay: 0.8 }}
             >
               Who am I?
             </motion.a>
@@ -33,7 +33,7 @@ export default function Navbar() {
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ ease: "circOut", duration: 0.5, delay: 1.15 }}
+              transition={{ ease: "circOut", duration: 0.5, delay: 0.95 }}
             >
               What do I do?
             </motion.a>
@@ -44,7 +44,7 @@ export default function Navbar() {
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ ease: "circOut", duration: 0.5, delay: 1.3 }}
+              transition={{ ease: "circOut", duration: 0.5, delay: 1.1 }}
             >
               Talk to me
             </motion.a>

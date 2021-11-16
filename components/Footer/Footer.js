@@ -1,9 +1,16 @@
 import styles from "./Footer.module.css";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
 export default function Footer() {
   return (
-    <footer className={`${styles.header}`}>
+    <motion.footer
+      className={`${styles.header}`}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ ease: "circOut", duration: 0.3 }}
+      viewport={{ once: true }}
+    >
       <div>
         <Link href="/">
           <a className={styles.logo}>Mauricio Gonzalez</a>
@@ -16,8 +23,8 @@ export default function Footer() {
               </a>
             </Link>
             <Link href="">
-            <a target="_blank">
-              <li className={styles.socials}>Github</li>
+              <a target="_blank">
+                <li className={styles.socials}>Github</li>
               </a>
             </Link>
           </ul>
@@ -40,6 +47,6 @@ export default function Footer() {
           </Link>
         </li>
       </ul>
-    </footer>
+    </motion.footer>
   );
 }

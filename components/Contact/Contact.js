@@ -1,9 +1,13 @@
 import styles from "./Contact.module.css";
 import utilStyles from "../../styles/utils.module.css";
-
+import { motion } from "framer-motion";
 export default function Contact() {
   return (
-    <section>
+    <motion.section
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ ease: "circOut", duration: 0.5 }}
+    viewport={{ once: true }}>
       <h3 className={styles.subheading}>
         Contact me if you are interested in working with me or have any
         questions.
@@ -54,6 +58,6 @@ export default function Contact() {
           <button className={styles.submitButton} type="submit">Send</button>
         </p>
       </form>
-    </section>
+    </motion.section>
   );
 }

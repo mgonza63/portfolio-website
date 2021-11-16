@@ -11,7 +11,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ y: 0, opacity: 1 }}
         whileInView={{ opacity: 1 }}
-        transition={{ ease: "circOut", duration: 0.5, delay: 0.8 }}
+        transition={{ ease: "circOut", duration: 0.5, delay: 0.4 }}
       >
         DESIGNING SMOOTH USER EXPERIENCES
       </motion.span>

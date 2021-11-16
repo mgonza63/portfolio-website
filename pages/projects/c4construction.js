@@ -5,13 +5,20 @@ import Footer from "../../components/Footer/Footer";
 import { ProjectData } from "../../components/Projects/ProjectData";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
 export default function Qtax() {
   const c4 = ProjectData[1];
 
   return (
     <div className={utilStyles.containerLg}>
       <Navbar />
-      <div className={`${utilStyles.containerMd} ${utilStyles.mb}`}>
+      <motion.div
+        className={`${utilStyles.containerMd} ${utilStyles.mb}`}
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ y: 0, opacity: 1 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: "circOut", duration: 0.5, delay: 0.2 }}
+      >
         <div className={utilStyles.pb}>
           <h1 className={`${utilStyles.textCenter} ${utilStyles.headingLg}`}>
             {c4.title}
@@ -51,7 +58,7 @@ export default function Qtax() {
           Additionally, I setup a business email for them with the website{`'`}s
           domain giving them the professionalism every business needs.
         </p>
-      </div>
+      </motion.div>
       <Contact />
       <Footer />
     </div>

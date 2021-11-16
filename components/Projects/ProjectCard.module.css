@@ -2,6 +2,7 @@
 .projectCopy {
   flex: 1;
   padding-right: 1em;
+  margin-bottom: 2em;
 }
 .projectHeading {
   font-family: "Austin";
@@ -51,7 +52,7 @@
   border-radius: 18px;
   padding: 0.2em 0.55em;
   margin-right: 0.25em;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 @media screen and (min-width: 48em) {
   .projectCard {

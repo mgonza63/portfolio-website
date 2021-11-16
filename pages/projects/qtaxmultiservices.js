@@ -5,19 +5,29 @@ import Footer from "../../components/Footer/Footer";
 import { ProjectData } from "../../components/Projects/ProjectData";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
 export default function Qtax() {
   const qtax = ProjectData[0];
 
   return (
     <div className={utilStyles.containerLg}>
       <Navbar />
-      <div className={`${utilStyles.containerMd} ${utilStyles.mb}`}>
+      <motion.div
+        className={`${utilStyles.containerMd} ${utilStyles.mb}`}
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ y: 0, opacity: 1 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: "circOut", duration: 0.5, delay: 0.2 }}
+      >
         <div className={utilStyles.pb}>
           <h1 className={`${utilStyles.textCenter} ${utilStyles.headingLg}`}>
             {qtax.title}
           </h1>
           <Link href={`${qtax.site}`}>
-            <a className={`${utilStyles.textCenter} ${utilStyles.mb}`} target="_blank">
+            <a
+              className={`${utilStyles.textCenter} ${utilStyles.mb}`}
+              target="_blank"
+            >
               <p>Link to Site</p>
             </a>
           </Link>
@@ -33,7 +43,8 @@ export default function Qtax() {
           Qtax Multiservices is an accounting firm focused on spanish speaking
           people in the United States. They already had a website, but the
           design was <span className={utilStyles.highlight}>outdated</span> and
-          they needed a <span className={utilStyles.highlight}>fresh look.</span>
+          they needed a{" "}
+          <span className={utilStyles.highlight}>fresh look.</span>
         </p>
         <p className={utilStyles.copy}>
           I used <span className={utilStyles.highlight}>Alpine.js</span>, a
@@ -49,7 +60,7 @@ export default function Qtax() {
           <span className={utilStyles.highlight}>MailChimp</span> into the site.
           Additionally, I edited videos and posts for their social media.
         </p>
-      </div>
+      </motion.div>
       <Contact />
       <Footer />
     </div>
