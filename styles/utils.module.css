@@ -3,13 +3,38 @@
   padding: 0 1rem;
   margin: 1rem auto;
 }
+.containerMd {
+  max-width: 48em;
+  padding: 0 1rem;
+  margin: 1rem auto;
+}
 .centered {
   display: flex;
   justify-content: center;
+}
+.textCenter {
+  text-align: center;
 }
 .dFlex {
   display: flex;
 }
 .highlight {
   color: #ff3c3c;
+}
+
+.headingLg {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+.copy {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.mb {
+  margin-bottom: 8em;
 }
