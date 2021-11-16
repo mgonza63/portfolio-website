@@ -18,7 +18,7 @@ export default function Navbar() {
       </div>
       <ul className={styles.navbar}>
         <li className={styles.navItem}>
-          <Link href="/" passHref>
+          <Link href="/about" passHref>
             <motion.a
               initial={{ opacity: 0, y: -50 }}
               animate={{ y: 0, opacity: 1 }}

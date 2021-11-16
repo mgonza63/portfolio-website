@@ -2,6 +2,7 @@
 import styles from "./Hero.module.css";
 import utilStyles from "../../styles/utils.module.css";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -15,6 +16,7 @@ export default function Hero() {
       >
         DESIGNING SMOOTH USER EXPERIENCES
       </motion.span>
+      {/* WEB DEVELOPER AND DESIGNER  */}
       <motion.div
         className={styles.mainImgContainer}
         initial={{ opacity: 0, y: 100 }}
@@ -22,11 +24,15 @@ export default function Hero() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "circOut", duration: 0.5, delay: 0.2 }}
       >
+        <Link href="/about">
+        <a>
         <img
           className={styles.mainImg}
           src="/images/mainImg.png"
           alt="me standing with my hand running through my hair"
         />
+        </a>
+        </Link>
       </motion.div>
     </motion.main>
   );
