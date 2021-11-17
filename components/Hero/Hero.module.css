@@ -1,9 +1,16 @@
 .heroSection {
+  /* fix scrolling to #projects from a different page */
   min-height: 73vh;
 }
 .mainImgContainer {
   display: flex;
   justify-content: center;
+  transform: translateY(-3em);
+
+}
+.mainImgContainer {
+  transform: translateY(-3em);
+
 }
 .mainHeading {
   position: relative;
@@ -14,36 +21,13 @@
   font-family: "Austin";
   z-index: 100;
 }
-.pathContainer {
-  position: relative;
-}
-.circleText {
-  position: absolute;
-  transform: translateY(-10em);
-  width: 150px;
-  height: 150px;
-  overflow: visible;
-  stroke-opacity: 0.5;
-  border: 1px solid red;
-transform-origin: center;
-}
-.circlePath {
-    width: 150px;
-    height: 150px;
-}
-.textPath{
 
-  letter-spacing: 1.25px;
-}
-.tSpan {
-    font-size: 16px;
-    letter-spacing: 3px;
-}
 .mainImg {
+  transform: translateY(-3em);
+
   clip-path: inset(2% 10% 5% 12% round 35vw 35vw 0vw 0vw);
   transition-delay: 1s;
   transition: all 450ms cubic-bezier(0.8, 0.26, 0.03, 1);
-  transform: translateY(-3em);
 }
 .mainImg:hover {
   clip-path: inset(15% 20% 15% 20% round 25vw 25vw 25.01vw 25.01vw);

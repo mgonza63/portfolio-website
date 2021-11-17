@@ -3,7 +3,7 @@ import styles from "./Hero.module.css";
 import utilStyles from "../../styles/utils.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Hero() {
   return (
     <motion.main className={`${utilStyles.containerLg} ${styles.heroSection}`}>
