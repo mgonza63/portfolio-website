@@ -32,7 +32,7 @@ export default function ProjectCard(props) {
               <a className={styles.links}>Learn More</a>
             </Link>
             <Link href={`${props.site}`}>
-              <a className={styles.links} target="_blank">
+              <a className={styles.links} target="_blank" rel="noopener">
                 Link to Site
               </a>
             </Link>

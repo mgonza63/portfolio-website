@@ -22,12 +22,12 @@ export default function Footer() {
         <div>
           <ul className={styles.socialsList}>
             <Link href="https://www.linkedin.com/in/mauricio-gonzalez-b940b4195/">
-              <a target="_blank">
+              <a target="_blank" rel="noopener">
                 <li className={styles.socials}>LinkedIn</li>
               </a>
             </Link>
-            <Link href="/">
-              <a target="_blank">
+            <Link href="https://github.com/mgonza63">
+              <a target="_blank" rel="noopener" > 
                 <li className={styles.socials}>Github</li>
               </a>
             </Link>
