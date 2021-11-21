@@ -20,6 +20,9 @@ export default function Footer() {
           <a className={styles.logo}>Mauricio Gonzalez</a>
         </Link>
         <div>
+        <small className={styles.smallText}>built with Next.js</small>
+        </div>
+        <div>
           <ul className={styles.socialsList}>
             <Link href="https://www.linkedin.com/in/mauricio-gonzalez-b940b4195/">
               <a target="_blank" rel="noopener">
@@ -27,7 +30,7 @@ export default function Footer() {
               </a>
             </Link>
             <Link href="https://github.com/mgonza63">
-              <a target="_blank" rel="noopener" > 
+              <a target="_blank" rel="noopener">
                 <li className={styles.socials}>Github</li>
               </a>
             </Link>

@@ -9,6 +9,9 @@
     font-family: "Austin";
     font-size: 1.75em;
 }
+.smallText {
+    font-family: "Austin";
+}
 .navbar {
     margin-left: auto;
     list-style: none;
