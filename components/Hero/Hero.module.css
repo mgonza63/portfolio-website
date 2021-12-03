@@ -1,7 +1,4 @@
-.heroSection {
-  /* fix scrolling to #projects from a different page */
-  min-height: 73vh;
-}
+
 .mainImgContainer {
   display: flex;
   justify-content: center;
@@ -31,6 +28,11 @@
 }
 .mainImg:hover {
   clip-path: inset(15% 20% 15% 20% round 25vw 25vw 25.01vw 25.01vw);
+}
+.divider {
+  transform: rotate(90deg) translateX(-40px);
+  width: 40px;
+  color: #ff3c3c;
 }
 @media screen and (min-width: 30em) {
   .mainHeading {

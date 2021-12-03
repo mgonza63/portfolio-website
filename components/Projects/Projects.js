@@ -62,6 +62,7 @@ export default function Projects() {
           shortCopy={project.shortCopy}
           learn={project.learn}
           site={project.site}
+          github={true}
         />
       ))}
       <div className={utilStyles.mb}></div>

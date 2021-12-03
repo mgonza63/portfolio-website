@@ -1,5 +1,5 @@
 .projectCard {
-  margin-bottom: 2em;
+  padding: 1em 0 4em 0;
 }
 .projectCopy {
   flex: 1;
@@ -22,9 +22,16 @@
   margin-bottom: 1.25em;
 }
 .links {
-  margin-right: 2em;
-  padding-bottom: .5em;
-  border-bottom: 1px #ff3c3c solid;
+  margin-right: 1.25em;
+  padding: 0.55em 0.75em;
+  border-radius: 18px;
+  border: 1px #ff3c3c solid;
+  min-width: 6.5em;
+  text-align: center;
+}
+.links:hover {
+  color: #dde8e4;
+  background-color: #ff3c3ccb;
 }
 
 .projectImageContainer {
@@ -32,7 +39,7 @@
   padding: 1em 0 0 0;
   width: 100%;
   height: auto;
-  aspect-ratio: 9/8;
+  /* aspect-ratio: 9/8; */
   object-fit: cover;
 }
 .projectImageContainer img {
@@ -53,7 +60,7 @@
   border: #dde8e4 1px solid;
   border-radius: 18px;
   padding: 0.2em 0.55em;
-  margin-right: 0.25em;
+  margin-right: 0.4em;
   opacity: 0.9;
 }
 @media screen and (min-width: 48em) {

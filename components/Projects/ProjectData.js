@@ -7,7 +7,7 @@ export const ProjectData = [
     shortCopy: "Developed with Alpine JS for quick configuration",
     type: "Client Work",
     learn: "/projects/qtaxmultiservices",
-    site: "https://www.qtaxmultiservices.com/"
+    site: "https://www.qtaxmultiservices.com/",
   },
   {
     id: "c4",
