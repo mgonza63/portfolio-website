@@ -34,8 +34,9 @@ export default function Hero() {
           </a>
         </Link>
       </motion.div>
-      <hr className={styles.divider} />
-
+      <div className={styles.dividerContainer}>
+        <span className={styles.divider}></span>
+      </div>
     </motion.main>
   );
 }

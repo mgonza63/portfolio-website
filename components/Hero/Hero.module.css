@@ -1,13 +1,10 @@
-
 .mainImgContainer {
   display: flex;
   justify-content: center;
   transform: translateY(-3em);
-
 }
 .mainImgContainer {
   transform: translateY(-3em);
-
 }
 .mainHeading {
   position: relative;
@@ -29,10 +26,55 @@
 .mainImg:hover {
   clip-path: inset(15% 20% 15% 20% round 25vw 25vw 25.01vw 25.01vw);
 }
+
+.dividerContainer {
+  width: 50px;
+  margin: 0 auto;
+  height: 10px;
+  padding: 0;
+}
 .divider {
-  transform: rotate(90deg) translateX(-40px);
-  width: 40px;
-  color: #ff3c3c;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  width: 60px;
+  transform: rotate(90deg) translateX(-30px);
+  transform-origin: 50% 50%;
+}
+.divider::before,
+.divider::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+}
+.divider:before {
+  background: #ffffff3b;
+}
+
+.divider::after {
+  background: #ff3c3ccb;
+  animation: move 2500ms infinite;
+}
+@keyframes move {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  60% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+.mouseIcon {
+  fill: #dde8e4;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transform: translateY(-40px);
 }
 @media screen and (min-width: 30em) {
   .mainHeading {
