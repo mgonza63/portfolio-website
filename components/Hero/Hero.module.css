@@ -55,18 +55,21 @@
 }
 
 .divider::after {
-  background: #ff3c3ccb;
-  animation: move 2500ms infinite;
+  background: #ff3c3c;
+  animation: move 4s infinite;
 }
 @keyframes move {
   0% {
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-80%, 0, 0);
   }
-  60% {
+  50% {
     transform: translate3d(100%, 0, 0);
+  }
+  90% {
+    transform: translate3d(-70%, 0, 0);
   }
   100% {
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(-80%, 0, 0);
   }
 }
 .mouseIcon {
