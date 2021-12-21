@@ -21,6 +21,17 @@ export const ProjectData = [
     site: "https://www.c4-construction.com/"
   },
   {
+    id: "email-scheduler",
+    title: "Email Scheduler",
+    pills: ["NODE.JS", "EXPRESS", "MONGODB"],
+    thumbnail: "/images/email-scheduler/email1.png",
+    shortCopy:
+      "Schedule an email to any email address and whatever day you want.",
+    type: "Fullstack Projects",
+    learn: "https://github.com/mgonza63/node-email",
+    site: "https://emailcapsule.herokuapp.com/"
+  },
+  {
     id: "note-taker",
     title: "Note Taker",
     pills: ["NODE.JS", "EXPRESS"],

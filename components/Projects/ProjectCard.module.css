@@ -38,20 +38,21 @@
   flex: 1;
   padding: 1em 0 0 0;
   width: 100%;
-  height: auto;
+ 
   /* aspect-ratio: 9/8; */
-  object-fit: cover;
 }
 .projectImageContainer img {
   border-radius: 12px;
   width: 100%;
+  max-height: 340px;
+  object-fit: cover;
 }
 .pillList {
   display: flex;
   list-style: none;
   padding: 0;
 
-  margin: 0.3em 0 0.5em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 .pill {
   color: #dde8e4;
@@ -59,7 +60,7 @@
   font-family: forma-djr-micro, sans-serif;
   border: #dde8e4 1px solid;
   border-radius: 18px;
-  padding: 0.2em 0.55em;
+  padding: 0.2em 0.55em 0.2em 0.55em;
   margin-right: 0.4em;
   opacity: 0.9;
 }

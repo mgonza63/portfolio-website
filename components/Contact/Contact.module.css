@@ -1,6 +1,10 @@
 .form {
     width: 100%;
 }
+#contact {
+    scroll-margin: 2em 0 0 0 ;
+
+}
 .subheading {
     font-size: 2em;
     margin-bottom: 1.25em;

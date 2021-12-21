@@ -56,7 +56,7 @@
 
 .divider::after {
   background: #ff3c3c;
-  animation: move 4s infinite;
+  animation: move 3.5s infinite;
 }
 @keyframes move {
   0% {
