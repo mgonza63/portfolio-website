@@ -26,11 +26,15 @@ export default function Hero() {
       >
         <Link href="/about">
           <a>
-            <img
-              className={styles.mainImg}
-              src="/images/mainImg.png"
-              alt="me standing with my hand running through my hair"
-            />
+            <picture>
+              {/* <source type="image/webp" srcSet="/images/mainImg.webp" /> */}
+              <source type="image/png" srcSet="/images/mainImg.png" />
+              <img
+                src="/images/mainImg.png"
+                alt="me standing with my hand running through my hair"
+                className={styles.mainImg}
+              />
+            </picture>
           </a>
         </Link>
       </motion.div>

@@ -40,6 +40,7 @@ export default function Projects() {
           title={project.title}
           pills={project.pills}
           thumbnail={project.thumbnail}
+          webp={project.webp}
           shortCopy={project.shortCopy}
           learn={project.learn}
           site={project.site}
@@ -59,6 +60,7 @@ export default function Projects() {
           title={project.title}
           pills={project.pills}
           thumbnail={project.thumbnail}
+          webp={project.webp}
           shortCopy={project.shortCopy}
           learn={project.learn}
           site={project.site}

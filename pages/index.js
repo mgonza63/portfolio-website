@@ -11,7 +11,7 @@ import Footer from "../components/Footer/Footer";
 export default function Home() {
 
   return (
-    <div className={utilStyles.containerLg}>
+    <div className={utilStyles.containerLg} lang="en">
       <Head>
         <title>Mauricio Gonzalez | Home</title>
         <meta

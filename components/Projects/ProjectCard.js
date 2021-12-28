@@ -49,10 +49,14 @@ export default function ProjectCard(props) {
         </div>
       </div>
       <div className={styles.projectImageContainer}>
+        <picture>
+          <source type="image/webp" srcSet={props.webp}/>
+          <source type="image/png" srcSet={props.thumbnail}/>
         <img
           src={props.thumbnail}
           alt={`A screenshot featuring ${props.title} website made by me`}
         />
+        </picture>
       </div>
     </motion.div>
   );

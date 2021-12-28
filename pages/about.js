@@ -29,11 +29,15 @@ export default function About() {
         have found many interesting ones such as p5.js, ChakraUI, Vite, and
         others.
       </p>
+      <picture>
+        <source type="image/webp" srcSet="/images/ut.webp" />
+        <source type="image/png" srcSet="/images/ut.png" />
       <img
         className={utilStyles.image}
         src="/images/ut.jpg"
-        alt="screenshot of the project's website"
+        alt="A view of the UT tower in Austin, Texas"
       />
+      </picture>
       <p className={utilStyles.copy}>
         About two years ago, I completed the Coding Bootcamp from the{" "}
         <span className={utilStyles.highlight}> University of Texas</span>. It
