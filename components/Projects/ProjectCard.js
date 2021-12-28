@@ -37,7 +37,7 @@ export default function ProjectCard(props) {
           ) : (
             <Link href={`${props.learn}`}>
               <a className={styles.links} rel="noopener">
-                Learn More
+                View Case
               </a>
             </Link>
           )}
