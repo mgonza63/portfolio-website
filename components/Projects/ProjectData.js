@@ -5,7 +5,7 @@ export const ProjectData = [
     pills: ["WEB DEVELOPMENT", "WEB DESIGN", "MARKETING"],
     thumbnail: "/images/qtax/qtax1.png",
     webp:"/images/qtax/qtax1.webp",
-    shortCopy: "Developed with Alpine JS for quick configuration",
+    shortCopy: "Developed with Alpine JS and TailwindCSS for quick configuration",
     type: "Client Work",
     learn: "/projects/qtaxmultiservices",
     site: "https://www.qtaxmultiservices.com/",
