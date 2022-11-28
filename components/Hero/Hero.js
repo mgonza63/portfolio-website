@@ -14,8 +14,11 @@ export default function Hero() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "circOut", duration: 0.5, delay: 0.4 }}
       >
-        DESIGNING SMOOTH USER EXPERIENCES
+        WEB DEVELOPER + DESIGNER, ALWAYS LEARNING
       </motion.span>
+      
+      {/* DESIGNING SMOOTH USER EXPERIENCES */}
+
       {/* WEB DEVELOPER AND DESIGNER  */}
       <motion.div
         className={styles.mainImgContainer}
@@ -28,9 +31,9 @@ export default function Hero() {
           <a>
             <picture>
               {/* <source type="image/webp" srcSet="/images/mainImg.webp" /> */}
-              <source type="image/png" srcSet="/images/mainImg.png" />
+              <source type="image/png" srcSet="/images/pfp.jpg" />
               <img
-                src="/images/mainImg.png"
+                src="/images/pfp.jpg"
                 alt="me standing with my hand running through my hair"
                 className={styles.mainImg}
               />

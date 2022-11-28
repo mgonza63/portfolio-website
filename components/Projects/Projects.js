@@ -46,14 +46,14 @@ export default function Projects() {
           site={project.site}
         />
       ))}
-      <div className={utilStyles.mbSm}></div>
+      {/* <div className={utilStyles.mbSm}></div>
       <div className={styles.breadcrumb}>
         <p>Projects</p>
         <div className={styles.breadcrumbSeparator}>
           <p>/</p>
         </div>
         <p>Fullstack Projects</p>
-      </div>
+      </div> */}
       {fullstack.map((project) => (
         <ProjectCard
           key={project.id}

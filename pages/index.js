@@ -7,8 +7,8 @@ import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 
-
 export default function Home() {
+
 
   return (
     <div className={utilStyles.containerLg} lang="en">
@@ -16,13 +16,15 @@ export default function Home() {
         <title>Mauricio Gonzalez | Home</title>
         <meta
           name="description"
-          content="Mauricio Gonzalez' Portfolio Website! Get to know about me and my projects,"
+          content="Mauricio Gonzalez' Portfolio Website! Get to know about me and my projects"
         />
+        <meta property="og:image" content="/images/site-img.jpg" />
+
         <link rel="stylesheet" href="https://use.typekit.net/qzg3egg.css" />
       </Head>
       <Navbar />
       <Hero />
-      <Projects/>
+      <Projects />
       <Contact />
       <Footer />
     </div>
