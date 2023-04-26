@@ -2,7 +2,7 @@
 
 Developed with Next.js, designed on Figma and deployed on Netlify :)
 
-[Link to Site](https://mau-portfolio.netlify.app/)
+[Link to Site](https://mau.vision/)
 
 ## Future Improvements
 
