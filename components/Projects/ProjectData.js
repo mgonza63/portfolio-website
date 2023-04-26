@@ -22,20 +22,20 @@ export const ProjectData = [
     type: "Client Work",
     learn: "/projects/c4construction",
     site: "https://www.c4-construction.com/"
-  }
-  // {
-  //   id: "email-scheduler",
-  //   title: "Email Scheduler",
-  //   pills: ["NODE.JS", "EXPRESS", "MONGODB"],
-  //   thumbnail: "/images/email-scheduler/email1.png",
-  //   webp:"/images/email-scheduler/email1.webp",
+  },
+  {
+    id: "only-once",
+    title: "One Time Message",
+    pills: ["NODE.JS", "EXPRESS", "MONGODB"],
+    thumbnail: "/images/email-scheduler/email1.png",
+    webp:"/images/only-once/only-once.webp",
 
-  //   shortCopy:
-  //     "Schedule an email to any email address and whatever day you want.",
-  //   type: "Fullstack Projects",
-  //   learn: "https://github.com/mgonza63/node-email",
-  //   site: "https://emailcapsule.herokuapp.com/"
-  // },
+    shortCopy:
+      "Write your one time message and get a link that can only reveal that message once.",
+    type: "Fullstack Projects",
+    learn: "https://github.com/mgonza63/only-once",
+    site: "https://www.only-once.com/"
+  },
   // {
   //   id: "note-taker",
   //   title: "Note Taker",
